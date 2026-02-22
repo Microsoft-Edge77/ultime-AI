@@ -30,10 +30,20 @@
             margin: auto;
         }
 
+        /* Cadre du jeu avec effet néon */
         .game-frame {
             width: 100%;
             max-width: 600px;
             margin: auto;
+            padding: 10px;
+            border-radius: 15px;
+
+            /* Effet néon bleu */
+            box-shadow:
+                0 0 10px #0033cc,
+                0 0 20px #0033cc,
+                0 0 40px #0033cc,
+                0 0 80px #0033cc;
         }
 
         iframe {
@@ -41,6 +51,7 @@
             height: 450px;
             border: none;
             outline: none;
+            border-radius: 10px;
         }
 
         p {
@@ -74,7 +85,7 @@
     <div class="container">
         <h1>Découvrez Ultime AI, un projet d'intelligence artificielle développé par Microsoft-Edge77</h1>
 
-        <!-- TurboWarp en vitesse normale (pas de turbo, pas de 60 FPS forcé) -->
+        <!-- TurboWarp en vitesse normale + effet néon -->
         <div class="game-frame">
             <iframe 
                 src="https://turbowarp.org/1223311495/embed?fullscreen=true&autoplay=true"
