@@ -12,6 +12,6 @@
 
 ▶ Nouveau : Détection automatique des bugs : sprite "CHECKER".
 
-Essayez-le sur Turbowarp :
-
-https://turbowarp.org/1223311495
+Les images ont été générées par Microsoft Copilot. 
+(➤ https://copilot.microsoft.com)
+A noter : l'IA peut ne plus donner de réponse, même lorsqu'on lui a appris. Si cela arrive, essayez d'actualiser la page ou de relancer le projet. Si cela ne suffit pas, effacer toutes ses données et réapprenez lui.
