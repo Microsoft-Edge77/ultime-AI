@@ -9,7 +9,7 @@
         body {
             font-family: "Microsoft Sans Serif", Arial, sans-serif;
             background: black;
-            color: #0033cc; /* bleu foncé */
+            color: #0033cc;
             margin: 0;
             padding: 0;
             text-align: center;
@@ -26,13 +26,23 @@
 
         .container {
             padding: 40px 20px;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
         }
 
-        iframe {
+        /* Cadre du jeu */
+        .game-frame {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
             border: none;
-            margin-top: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            outline: none;
         }
 
         p {
@@ -66,22 +76,20 @@
     <div class="container">
         <h1>Découvrez Ultime AI, un projet d'intelligence artificielle développé par Microsoft-Edge77</h1>
 
-        <iframe 
-            src="https://scratch.mit.edu/projects/1223311495/embed" 
-            allowtransparency="true" 
-            width="485" 
-            height="402" 
-            frameborder="0" 
-            scrolling="no" 
-            allowfullscreen>
-        </iframe>
+        <!-- Intégration TurboWarp propre -->
+        <div class="game-frame">
+            <iframe 
+                src="https://turbowarp.org/1223311495/embed?fullscreen=true&autoplay=true&fps=60&turbo=true"
+                allowfullscreen>
+            </iframe>
+        </div>
 
         <p>
             Les images ont été générées par Microsoft Copilot.<br>
             (➤ https://copilot.microsoft.com)<br><br>
             À noter : l'IA peut parfois cesser de répondre, même après apprentissage.  
             Si cela arrive, essayez d’actualiser la page ou de relancer le projet.  
-            Si le problème persiste, effacez toutes ses données et réapprenez lui.
+            Si le problème persiste, effacez toutes ses données et réapprenez-lui.
         </p>
     </div>
 
@@ -91,3 +99,4 @@
 
 </body>
 </html>
+
